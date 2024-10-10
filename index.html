@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>A fuga da ilha perdida</title>
+</head>
+<body>
+   <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt="Cenário de uma floresta com cachoeira">
+        <p>Você acorda de repente, olha ao redor e percebe que está em uma ilha, cercada de um mar de águas cristalinas e bem arborizada. Você acha tudo muito lindo mas não faz ideia de como foi parar ali.</p>
+        <button class="btn-proximo" data-proximo="1">Explorar a ilha</button>
+        <button class="btn-proximo" data-proximo="2">Gritar por socorro</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Você inicia a sua exploração pela ilha, observando cada detalhe. Quando de repente vê uma grande árvore.</p>
+        <button class="btn-proximo" data-proximo="3">Escalar a árvore e observar a ilha.</button>
+        <button class="btn-proximo" data-proximo="4">Seguir o seu caminho mata a dentro.</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Você chega até o topo da árvore, observa ao redor e assustado percebe o quão grande é a ilha.Muito cansado e com fome, você vê que esta em cima de uma árvore frutifera, com uma fruta que você jamais viu!</p>
+        <button class="btn-proximo" data-proximo="5">Comer a fruta.</button>
+        <button class="btn-proximo" data-proximo="6">Descer da árvore com fome mesmo.</button>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Você come a fruta de cor azulada e se desfaz em careta de tão azeda que ela era. Felizmente você mata a sua fome e segue de volta o seu caminho indo mata a dentro.</p>
+        <button class="btn-proximo" data-proximo="4">Seguir o seu caminho mata a dentro.</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <p>Você segue a sua exploração pela floresta, quando encontra um grande rio com apenas um tronco de árvore como ponte para atravessar. Porém você também escuta um barulho muito alto e não identificável vindo do lado oposto do rio.</p>
+        <button class="btn-proximo" data-proximo="7">Seguir o barulho.</button>
+        <button class="btn-proximo" data-proximo="8">Atravessar o rio.</button>
+    </div>
+    <div class="passo" id="passo-7">
+        <p>Você segue por um bom tempo pelo lado oposto do rio, em busca do barulho super alto que ouviu quase agora, quando olha a diante e vê um grande urso pardo que está olhando fixamente a você.</p>
+        <button class="btn-proximo" data-proximo="12">Se esconder até o urso ir embora e voltar para a ponte.</button>
+        <button class="btn-proximo" data-proximo="11">Sair correndo na direção oposta.</button>
+    </div>
+    <div class="passo" id="passo-12">
+        <p>Você não conseguiu se esconder do urso, que acabou te atacando selvagemente</p>
+        <button class="btn-proximo" data-proximo="0">Você morreu, tente novamente!</button>
+    </div>
+    <div class="passo" id="passo-11">
+        <p>Você não conseguiu correr mais rápido que o urso que acabou te atacando selvagemente.</p>
+        <button class="btn-proximo" data-proximo="0">Você morreu, tente novamente!</button>
+    </div>
+    <div class="passo" id="passo-8">
+        <p>Você atravessa por cima do tronco de árvore, e segue adiante pela beira do rio, olhando a frente você acha um grupo de pessoas supostamente acampando na ilha.</p>
+        <button class="btn-proximo" data-proximo="9">Ir até o grupo de pessoas</button>
+        <button class="btn-proximo" data-proximo="10">Voltar para a ponte e seguir o barulho.</button>
+    </div>
+    <div class="passo" id="passo-9">
+        <p>Você chega ao grupo de pessoas que te recebeu muito bem. Te explicaram onde você está e te indicaram como chegar até o porto para pegar a balsa e voltar para casa.</p>
+        <button class="btn-proximo" data-proximo="16">Parabéns!! Você conseguiu escapar da ilha perdida e voltou para casa bem!</button>
+    </div>
+    <div class="passo" id="passo-10">
+        <p>Você segue por um bom tempo pelo lado oposto do rio, em busca do barulho super alto que ouviu quase agora, quando olha a diante e vê um grande urso pardo que está olhando fixamente a você.</p>
+        <button class="btn-proximo" data-proximo="12">Se esconder até o urso ir embora e voltar para a ponte.</button>
+        <button class="btn-proximo" data-proximo="11">Sair correndo na direção oposta.</button>
+    </div>
+    <div class="passo" id="passo-6">
+        <p>Durante a descida, você acaba sentindo seu corpo muito fraco, e sem querer o galho no qual sua mão estava apoiada acaba quebrando e você vai ao chão.</p>
+        <button class="btn-proximo" data-proximo="0">Você morreu, tente novamente!</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Você grita por socorro por horas, mas ninguém parece te ouvir</p>
+        <button class="btn-proximo" data-proximo="13">Desistir e ir explorar a ilha.</button>
+        <button class="btn-proximo" data-proximo="14">Continuar gritando por socorro até alguém aparecer</button>
+    </div>
+    <div class="passo" id="passo-13">
+        <p>Você inicia a sua exploração pela ilha, observando cada detalhe. Quando de repente vê em sua frente uma grande árvore.</p>
+        <button class="btn-proximo" data-proximo="3">Escalar a árvore e observar a ilha.</button>
+        <button class="btn-proximo" data-proximo="4">Seguir o seu caminho mata a dentro.</button>
+    </div>
+    <div class="passo" id="passo-14">
+        <p>Você gritou por horas e agora está muito mais cansado, com fome e com sede.</p>
+        <button class="btn-proximo" data-proximo="15">Buscar por alimento.</button>
+        <button class="btn-proximo" data-proximo="1">Explorar a ilha.</button>
+    </div>
+    <div class="passo" id="passo-15">
+        <p>Você achou uma grande árvore cheia de laranjas que acabou te dando um pouco mais de energia!!</p>
+        <button class="btn-proximo" data-proximo="1">Explorar a ilha.</button>
+    </div>
+    <div class="passo" id="passo-16">
+        <p>Meus parabéns! Você já pode se aventurar mata a dentro!</p>
+        <button class="btn-proximo" id="0">Jogar novamente.</button>
+    </div>
+   </main>
+   <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
